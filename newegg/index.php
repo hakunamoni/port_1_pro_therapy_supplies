@@ -36,12 +36,12 @@ class NewEggConfig
     const SELLER_ID = 'A214';
 
     const API_URL = 'https://api.newegg.com/marketplace/';
-    const API_KEY = '7ae5631426ab9bf974a9e4fd59806215';
-    const API_SECRET_KEY = '75f88082-d4cb-4692-a308-c15d68ee15c2';
+    const API_KEY = 'aaa';
+    const API_SECRET_KEY = 'bbb';
 
     const FTP_HOST = 'ftp03.newegg.com';
-    const FTP_USERNAME = 'A217';
-    const FTP_PASSWORD = 'FTP!RWt4q#a';
+    const FTP_USERNAME = 'a';
+    const FTP_PASSWORD = 'b';
     
     public static function toArray() {
         $config = APP::getClassConstants('NewEggConfig');
